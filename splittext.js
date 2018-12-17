@@ -237,7 +237,7 @@ function SplitText(identifier, vars) {
 
 				div.style.display = "block";
 				if (this.vars.linesClass !== undefined && this.vars.linesClass != "undefined") {
-					this.class = this.vars.linesClass.replace("++", j + 1);
+					div.className = this.vars.linesClass.replace("++", j + 1);
 				}
 				div.innerHTML = text.substring(lineStart, lineEnd)
 				current.appendChild(div);
