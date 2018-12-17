@@ -434,3 +434,5 @@ function SplitText(identifier, vars) {
 
 	}
 }
+
+module.exports = SplitText;
